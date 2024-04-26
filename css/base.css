@@ -1087,6 +1087,9 @@ box-sizing: border-box;
 .text-spacing{
   letter-spacing: 5px;
 }
+.text-spacing2{
+  letter-spacing: 2px;
+}
 .uk-rating {
   display: block;
   width: 100%;
