@@ -458,6 +458,8 @@ nav{
   height: 28vh;
   position: relative;
   overflow: hidden;
+  z-index: 1;
+  border-bottom: 1px solid rgba(219, 204, 204, 0.753);
 }
 .banner-page3{
   width: 100%;
@@ -471,7 +473,13 @@ nav{
   width: 100%;
   min-height: 50vh;
   position: relative;
-
+}
+.background-maps{
+  top: 0;
+  z-index: -1;
+}
+.section-content{
+  top: 100;
 }
 
 .overlay{
@@ -1040,7 +1048,6 @@ box-sizing: border-box;
 }
 
 .backtotop:hover {
-  
   color: rgb(224, 217, 202);
 }
 
@@ -1074,7 +1081,9 @@ box-sizing: border-box;
 .text-black{
   color: #1e1e1e;
 }
-
+.text-gold{
+  color:#a78656;
+}
 .tx_title{
   font-size: 3em;
 }
@@ -1089,6 +1098,13 @@ box-sizing: border-box;
 }
 .text-spacing2{
   letter-spacing: 2px;
+}
+.uk-form-size{
+  width: 11px;
+  height: 11px;
+}
+.margin-top{
+  margin-bottom: -3.5px;
 }
 .uk-rating {
   display: block;
@@ -1133,4 +1149,15 @@ box-sizing: border-box;
 .img-size{
   width: 100px;
   height: 100px;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.container-height-max{
+  height: 100vh;
+}
+
+#map {
+  height: 400px; /* The height is 400 pixels */
+  width: 100%; /* The width is the width of the web page */
 }
