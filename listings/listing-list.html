@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listing List Compact - LUXIMA | Directory & Listings </title>
+
+    <meta name="description"
+    content="Experience the best wedding photography in Aceh with LUXIMA.ID. We offer professional wedding photography services at the best price." />
+    <meta name="keywords"
+    content="Wedding Photography, Photography Services, luxima.id, luxima-id, luxima photography, luxima studio, fotografer aceh, Wedding Organizer" />
+    <meta name="author" content="LUXIMA.ID / Siddiq Achmad" />
+
+    <!-- Basic stylesheet -->
+        <!-- UIkit CSS -->
+    <link rel="stylesheet" href="../css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="../js/uikit.min.js"></script>
+    <script src="../js/uikit-icons.min.js"></script>
+
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
+    <link rel="shortcut icon" href="../assets/images/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="../assets/images/favicon.ico">
+    <link rel="icon" type="image/png" href="../assets/images/favicon.ico">
+    
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+        <script type="module" src="../js/index.js"></script>
+
+</head>
+<body>
+
+    <div id="spinner" class="uk-container " >
+        <div uk-spinner>
+        </div>
+        <div id="loadingA" ></div>
+        <progress id="js-progressbar" class="uk-progress" value="1" max="100"></progress>
+    </div>
+
+<!-- Wrapper -->
+    <div id="app" class="page_wrapper">
+       <!--Header PC-->
+       <div id="page-header" class="page-header">
+        <div id="page-header-inner" class="header-centered uk-light uk-container uk-container-large uk-text-center uk-visible@m uk-inline">
+            <a itemprop="url" class="header-logo-link uk-position-center uk-overlay" href="../../DIRECTORY/index.html" rel="home">
+                <img src="../assets/images/luxima.png" class="qodef-header-logo-image qodef--main" alt="logo main" 
+                itemprop="image" srcset="../assets/images/luxima.png"> 
+            </a>
+
+            <div class="uk-position-absolute top_nav uk-position-center uk-overlay" uk-grid>
+                <div class="uk-width-1-4 ">
+                    <div id="social_icons_group" class="widget" data-area="header-widget-two"> 
+                        <div class="social-icons-group">
+                            <a href="https://www.facebook.com/luxima.photo" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook" style="color:#a78656" target="_blank"></a>
+                            <a href="https://www.instagram.com/luxima.id" class="uk-icon-button  uk-margin-small-right" uk-icon="instagram" style="color:#a78656" target="_blank"></a>
+                            <a href="https://www.twitter.com/luximaid" class="uk-icon-button  uk-margin-small-right" uk-icon="twitter" style="color:#a78656" target="_blank"></a>
+                            <a href="https://www.tiktok.com/@luxima.id" class="uk-icon-button  uk-margin-small-right" uk-icon="tiktok" style="color:#a78656" target="_blank"></a>
+                            <a href="https://www.youtube.com/@luxima-id" class="uk-icon-button  uk-margin-small-right" uk-icon="youtube" style="color:#a78656" target="_blank"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-expand">
+                    <nav class="uk-navbar-container uk-navbar-transparent header-navigation uk-dropnav " uk-dropnav="align: center">
+                        <ul id="menu-global" class="menu uk-subnav uk-tab uk-flex-center ">
+                            <li class=" uk-active">
+                                <a href="../index.html">
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a>Pages <span uk-drop-parent-icon></span></a>
+                                <div class="uk-dropdown">
+                                    <ul class="uk-nav uk-dropdown-nav">
+                                        <li class="uk-active"><a href="../about.html">About Us</a></li>
+                                        <li><a href="../gallery.html">Gallery</a></li>
+                                        <li><a href="../package.html">Package List</a></li>
+                                        <li><a href="../howto.html">How it Work</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="">
+                                <a>Shop <span uk-drop-parent-icon></span></a>
+                                <div class="uk-dropdown">
+                                    <ul class="uk-nav uk-dropdown-nav">
+                                        <li class="uk-active"><a href="../shop.html">Shop</a></li>
+                                        <li><a href="../layout.html">Layout</a></li>
+                                        <li><a href="../shop-detail.html">Shop Single</a></li>
+                                        <li><a href="../shop-page.html">Shop Page</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="">
+                                <a>Listings <span uk-drop-parent-icon></span></a>
+                                <div class="uk-dropdown">
+                                    <ul class="uk-nav uk-dropdown-nav">
+                                        <li class="uk-active"><a href="../listings/index.html">Listing Items</a></li>
+                                        <li><a href="../listing-map.html">Listing Maps</a></li>
+                                        <li><a href="../listing-list.html">Listing List Compact</a></li>
+                                        <li><a href="../listing-location.html">Location Filter</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="">
+                                <a href>Blog <span uk-drop-parent-icon></span></a>
+                                <div class="uk-dropdown">
+                                    <ul class="uk-nav uk-dropdown-nav">
+                                        <li class="uk-active"><a href="../blogs/blog-single.html">Blog single</a></li>
+                                        <li><a href="../blogs/sidebar-right.html">Right Sidebar</a></li>
+                                        <li><a href="../blogs/sidebar-left.html">Left Sidebar</a></li>
+                                        <li><a href="../blogs/no-sidebar.html">No Sidebar</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="">
+                                <a href="../contact.html">
+                                    <span>Contact</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="uk-width-1-4">
+                    <div class="widget uk-hidden">
+                        <a href="#modal-login" class="login-opener" uk-toggle>
+                            <span class="login-opener-text">Log In</span>
+                            <span uk-icon="icon: users">
+                            </span>
+                        </a> 
+                        
+                        <div class="dropdown-cart uk-hidden">
+                            <div class="dropdown-cart-inner m-inner">
+                                <a itemprop="url" class="" href="https://luxima-id.com/">
+                                    <span class="">Cart</span>
+                                    <span class="">(0)</span>
+                                </a>	
+                            </div>    
+                        </div>                           
+                    </div>
+
+                    <div class="widget">
+                        <a class="" href="#modal-search"  uk-toggle aria-label="Open Search" role="button">
+                            <span uk-icon="icon: menu">
+                            </span>
+                        </a>
+                    </div>
+                    
+
+                    <div class="widget">
+                        <div id="" class="uk-dark" data-area="header-widget-one">
+                            <a href="javascript:void(0)" class="" type="button">
+                                <span class="search-opener-text">Search</span> 
+                                <span uk-icon="icon: search"></span>
+                            </a>
+                            <div uk-dropdown="mode: click" class="uk-padding-remove" style="color: #a78656; background: none;">
+                                <form id="form_search" action="search" method="get">
+                                <div class="uk-margin uk-margin-remove">
+                                    <div class="uk-inline">
+                                        <a class="uk-form-icon uk-form-icon-flip" href="javascript:void(0)" onclick="document.getElementById('form_search').submit();" uk-icon="icon: search"></a>
+                                        <input class="uk-input" type="text" name="q" aria-label="Clickable icon" placeholder="Search ">
+                                    </div>
+                                </div>
+                                </form>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Header Mobile-->
+    <div class="header-mobile uk-position-relative uk-hidden@m">
+    <div class="uk-child-width-expand uk-grid-small" uk-grid >
+        <div class="uk-card uk-width-expand uk-margin-large-left">
+            <a itemprop="url"  href="https://luxima.id" rel="home">
+                <img class="logo-mobile" src="../assets/images/luxima.png" class="qodef-header-logo-image qodef--main" alt="logo main" 
+                itemprop="image" srcset="assets/images/luxima.png"> 
+            </a>
+        </div>
+        <div class="uk-card uk-width-1-6 uk-margin-left uk-text-right uk-text-top">
+            <a href="#modal-login" uk-icon="users" uk-toggle></a>
+        </div>
+        <div class="uk-card uk-width-1-6 uk-margin-left uk-text-center">
+            <nav class="uk-navbar-container uk-navbar-transparent">
+                <div class="uk-container">
+                    <div uk-navbar="dropbar: true; dropbar-anchor: !.header-mobile; target-y: !.header-mobile">
+            
+                        <div class="uk-navbar">
+                            <a class="uk-navbar-toggle uk-navbar-toggle-animate nav-height" uk-navbar-toggle-icon href="#"></a>
+                            <div class="uk-navbar-dropdown" uk-drop="boundary: !.header-mobile; stretch: x; flip: false; mode: click">
+                                
+                                    <ul class="uk-nav-default" uk-nav>
+                                        <li class="uk-active"><a href="index.html" class="uk-text-uppercase">HOME</a></li>
+                                        
+                                        <li class="uk-parent">
+                                            <a href="#" class="uk-text-uppercase">Pages<span uk-nav-parent-icon></span></a>
+                                            
+                                                <ul class="uk-nav-sub">
+                                                    <li class="uk-active"><a href="about.html">About Us</a></li>
+                                                    <li><a href="gallery.html">Gallery</a></li>
+                                                    <li><a href="package.html">Package List</a></li>
+                                                    <li><a href="howto.html">How it Work</a></li>
+                                                </ul>
+                                            
+                                        </li>
+                                        <li class="uk-parent">
+                                            <a href="#" class="uk-text-uppercase">Shop <span uk-nav-parent-icon></span></a>
+                                            
+                                                <ul class="uk-nav-sub">
+                                                    <li class="uk-active"><a href="shop.html">Shop</a></li>
+                                                    <li><a href="layout.html">Layout</a></li>
+                                                    <li><a href="shop-detail.html">Shop Single</a></li>
+                                                    <li><a href="shop-page.html">Shop Page</a></li>
+                                                </ul>
+                                            
+                                        </li>
+                                        <li class="uk-parent">
+                                            <a href="#" class="uk-text-uppercase">Listings <span uk-nav-parent-icon></span></a>
+                                            
+                                                <ul class="uk-nav-sub">
+                                                    <li class="uk-active"><a href="listings/index.html">Listing Items</a></li>
+                                                    <li><a href="listing-map.html">Listing Maps</a></li>
+                                                    <li><a href="listing-compact.html">Listing List Compact</a></li>
+                                                    <li><a href="listing-location.html">Location Filter</a></li>
+                                                </ul>
+                                            
+                                        </li>
+                                        <li class="uk-parent">
+                                            <a href="#" class="uk-text-uppercase">Blog <span uk-nav-parent-icon></span></a>
+                                            
+                                                <ul class="uk-nav-sub">
+                                                    <li class="uk-active"><a href="Blog-single.html">Blog single</a></li>
+                                                    <li><a href="sidebar-right.html">Right Sidebar</a></li>
+                                                    <li><a href="sidebar-left.html">Left Sidebar</a></li>
+                                                    <li><a href="no-sidebar.html">No Sidebar</a></li>
+                                                </ul>
+                                            
+                                        </li>
+                                        <li class="uk-parent">
+                                            <a href="contact.html" class="uk-text-uppercase">
+                                                <span>Contact</span>
+                                            </a>
+                                        </li>
+
+                                        <li class="uk-nav-header">OTHER</li>
+                                        <li><a href="https://www.facebook.com/luxima.photo" target="_blank"><span class="uk-margin-small-right" uk-icon="icon: facebook"></span> Facebook</a></li>
+                                        <li><a href="https://www.instagram.com/luxima.id/" target="_blank"><span class="uk-margin-small-right" uk-icon="icon: instagram"></span> Instagram</a></li>
+                                        <li><a href="https://www.twitter.com/luximaid" target="_blank"><span class="uk-margin-small-right" uk-icon="icon: twitter"></span> Twitter</a></li>
+                                        <li><a href="https://www.tiktok.com/@luxima.id" target="_blank"><span class="uk-margin-small-right" uk-icon="icon: tiktok"></span> Tiktok</a></li>
+                                        <li><a href="https://www.youtube.com/@luxima-id" target="_blank"><span class="uk-margin-small-right" uk-icon="icon: youtube"></span> Youtube</a></li>
+                                        <li class="uk-nav-divider"></li>
+                                        <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: sign-in"></span> Register</a></li>
+                                    </ul>
+                                
+                                    
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            </nav>
+        </div>
+        
+    </div>
+    
+    
+    </div>
+
+
+        <!-- Page Outer -->
+        <div class="page-outer">
+
+            <!--Page Inner -->
+            <div id="page-inner" class="page-inner">
+                <main id="page-content" class="lxm_grid">
+                    
+                    <!-- CONTENT -->
+                    <!--section page -->
+                    <section  id="main-section-page" class="row full-width uk-position-relative">
+                        <div class="elemen_container">
+                            <div  class="elemen_row ">
+                                
+                                <!-- BANNER1 -->
+                                <div class="banner-page2 uk-light ">
+                                    <div class="uk-position-cover uk-height-large">
+                                        <img src="../assets/images/banner/1.jpg" alt="" uk-cover>
+                                    </div>
+                                    <div class="uk-inline uk-margin uk-section uk-position-cover " >
+                                        <div class="uk-position-bottom-center uk-overlay ">
+                                            <div class="uk-grid-small uk-child-width-auto">
+                                                <div class="uk-margin-remove">
+                                                    <h1 class="uk-text-nowrap@m uk-margin-remove slide-animasi tx_title uk-scrollspy-inview">Listing List</h1>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+
+                                <!-- BANNER1 -->
+                                <div class="banner-page4 uk-light ">
+                                    <div class="uk-position-cover uk-height-large">
+                                        <img src="../assets/images/banner/21.jpg" alt="" uk-cover>
+                                    </div>
+                                </div>
+                                 
+
+                                <!-- MAIN CONTENT -->
+                                <div uk-grid="" class="uk-grid ">
+                                    <div class="uk-width-1-2@m uk-margin-medium-left"></div>
+                                </div>
+
+
+
+                                <div class="page-content">
+
+                                <!-- isi content disini -->
+                                    <!-- konten utama -->
+                                    <div class="uk-container">
+                                        <section id="main-section-links" class="row full-width uk-position-relative">
+                                            <div class="">
+                                                <div uk-grid="" class="uk-grid ">
+                                                    <!-- Content Left -->
+                                                    <div class="uk-width-1-1@m">
+                                                        <!-- isi konten -->
+                                                        <div class="uk-card uk-margin-large-top uk-margin-medium"> 
+                                                            <div class="uk-card uk-margin-large-top uk-margin-small-left uk-margin-medium">
+                                                                <div class="uk-card-body uk-padding-remove">
+                                                                    
+                                                                    <article class="uk-article"  uk-scrollspy="cls: uk-animation-slide-bottom; target: .uk-article-title; delay: 300; repeat: true">
+                                                                        <!-- form input -->
+                                                                        <div class="uk-container uk-padding-remove uk-overlay">
+                                                                            <form action="" method="get" class="slide-animasi">
+                                                                                <div class="uk-grid" uk-grid>
+                                                                                    
+                                                                                    <div class="uk-width-1-3">
+                                                                                        <input class="uk-input uk-form-width-large uk-form-medium" type="text" name="keyword" id="keyword" aria-label="Input" placeholder="Keyword">
+                                                                                    </div>
+                                                                                    <div class="uk-width-1-3">
+                                                                                        <select id="category" name="category" class="uk-select uk-form-width-large uk-form-medium" aria-label="Select">
+                                                                                            <option value="A">Categori A</option>
+                                                                                            <option value="B">Categori A</option>
+                                                                                            <option value="C">Categori A</option>
+                                                                                            <option value="D">Categori A</option>
+                                                                                            <option value="E">Categori A</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                    <div class="uk-width-1-3">
+                                                                                    <select id="location" name="location" class="uk-select uk-form-width-large uk-form-medium" aria-label="Select">
+                                                                                        <option value="A">Location A</option>
+                                                                                        <option value="B">Location A</option>
+                                                                                        <option value="C">Location A</option>
+                                                                                        <option value="D">Location A</option>
+                                                                                        <option value="E">Location A</option>
+                                                                                    </select>
+                                                                                    </div>
+                                                                                
+                                                                                
+                                                                                </div>
+                                                                                
+                                                                            </form> 
+                                                                        </div>
+                                                                        <!-- tags -->
+                                                                        <div class="uk-margin-large-top">
+                                                                            <p class="uk-margin-remove text-spacing2 uk-text-italic text-gold" uk-scrollspy="cls: uk-animation-slide-top; delay: 250; repeat: true">Filter by Tags</p>
+                                                                                <hr class="uk-divider-small">
+                                                                            <div class="uk-flex uk-flex-wrap uk-flex-wrap-around">
+                                                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                                                    <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Accessories</label></a>
+                                                                                </div>
+                                                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                                                    <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Food</label></a>
+                                                                                </div>
+                                                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                                                    <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Photographers</label></a>
+                                                                                </div>
+                                                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                                                    <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Cakes</label></a>
+                                                                                </div>
+                                                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                                                    <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Decoration</label></a>
+                                                                                </div>
+                                                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                                                    <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Dresses</label></a>
+                                                                                </div>
+                                                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                                                    <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Drinks</label></a>
+                                                                                </div>
+                                                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                                                    <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Hotels</label></a>
+                                                                                </div>
+                                                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                                                    <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Invitations</label></a>
+                                                                                </div>
+                                                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                                                    <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Makeup</label></a>
+                                                                                </div>
+                                                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                                                    <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Restaurants</label></a>
+                                                                                </div>
+                                                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                                                    <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Shoes</label></a>
+                                                                                </div>
+                                                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                                                    <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Suits</label></a>
+                                                                                </div>
+                                                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                                                    <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">WiFi</label></a>
+                                                                                </div>
+                                                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                                                    <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Flower</label></a>
+                                                                                </div>
+                                                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                                                    <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Jewellery</label></a>
+                                                                                </div>
+                                                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                                                    <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Rings</label></a>
+                                                                                </div>
+                                                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                                                    <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Lingerie</label></a>
+                                                                                </div>
+                                                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                                                    <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Invitation</label></a>
+                                                                                </div>
+                                                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                                                    <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Comfort</label></a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <!-- link -->
+                                                                        <div  uk-grid class="uk-margin-large-top">
+                                                                            <div class="uk-width-1-5 ">
+                                                                                <div class="uk-flex uk-flex-left uk-text-center">
+                                                                                    <div>
+                                                                                        <p class="margin-top text-spacing2"><a href="#" class="uk-text-primary uk-text-small uk-button-text">FILTER RESULTS</a></p><hr class="uk-divider-small uk-margin-remove">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="uk-width-1-5 ">
+                                                                                <div class="uk-flex uk-flex-left uk-text-center ">
+                                                                                    <div>
+                                                                                        <p class="margin-top text-spacing2"><a href="#" class="uk-text-primary uk-text-small uk-button-text">SAVE SEARCH</a></p><hr class="uk-divider-small uk-margin-remove">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="uk-width-1-5 ">
+                                                                                <div class="uk-flex uk-flex-left uk-text-center ">
+                                                                                    <div>
+                                                                                        <p class="margin-top text-spacing2"><a href="#" class="uk-text-primary uk-text-small uk-button-text">RESET ALL</a></p><hr class="uk-divider-small uk-margin-remove">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                                                                                            
+                                                                            
+                                                                        </div>
+                                                                    
+                                                                        <hr class="uk-divider-icon uk-margin-medium"> 
+
+                                                                        <!-- listing -->
+                                                                        <div class="uk-margin">
+                                                                            <p class="text-spacing2 uk-text-italic text-gold" uk-scrollspy="cls: uk-animation-slide-top; delay: 250; repeat: true">6 Results Found</p>
+                                                                            <div class="uk-grid-medium uk-child-width-1-2@m uk-flex-center uk-text-center" uk-grid>
+                                                                                <div>
+                                                                                    <div class="uk-card">
+                                                                                        <div class="uk-card">
+                                                                                            <div class="uk-card-media-top uk-inline uk-cover-container uk-position-relative uk-inline-clip uk-transition-toggle">
+                                                                                                <a href="listings/index.html">
+                                                                                                <img class="uk-transition-scale-up uk-transition-opaque" src="../assets/images/h1-listing-img-10.jpg" width="1800" height="1200" alt="">
+                                                                                                <div class="uk-margin uk-position-top-left uk-position-small uk-text-primary"><a href="" uk-icon="heart"></a></div>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                            <div class="uk-card-body  uk-text-center">
+                                                                                                <a href="blank.html">
+                                                                                                    <h3 class="uk-card-title uk-margin-remove text-hover-gold">KRISTEN LEVIS</h3>
+                                                                                                    <h6 class="uk-margin-remove">Photo & Video</h6>
+                                                                                                </a>
+                                                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                                                                                <p><span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <div class="uk-card">
+                                                                                        <div class="uk-card">
+                                                                                            <div class="uk-card-media-top uk-inline uk-cover-container uk-position-relative uk-inline-clip uk-transition-toggle">
+                                                                                                <a href="listings/index.html">
+                                                                                                <img class="uk-transition-scale-up uk-transition-opaque" src="../assets/images/h1-listing-img-14.jpg" width="1800" height="1200" alt="">
+                                                                                                <div class="uk-margin uk-position-top-left uk-position-small uk-text-primary"><a href="" uk-icon="heart"></a></div>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                            <div class="uk-card-body  uk-text-center">
+                                                                                                <a href="blank.html">
+                                                                                                    <h3 class="uk-card-title uk-margin-remove text-hover-gold">KRISTEN LEVIS</h3>
+                                                                                                    <h6 class="uk-margin-remove">Photo & Video</h6>
+                                                                                                </a>
+                                                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                                                                                <p><span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <div class="uk-card">
+                                                                                        <div class="uk-card">
+                                                                                            <div class="uk-card-media-top uk-inline uk-cover-container uk-position-relative uk-inline-clip uk-transition-toggle">
+                                                                                                <a href="listings/index.html">
+                                                                                                <img class="uk-transition-scale-up uk-transition-opaque" src="../assets/images/h1-img-20.jpg" width="1800" height="1200" alt="">
+                                                                                                <div class="uk-margin uk-position-top-left uk-position-small uk-text-primary"><a href="" uk-icon="heart"></a></div>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                            <div class="uk-card-body  uk-text-center">
+                                                                                                <a href="blank.html">
+                                                                                                    <h3 class="uk-card-title uk-margin-remove text-hover-gold">KRISTEN LEVIS</h3>
+                                                                                                    <h6 class="uk-margin-remove">Photo & Video</h6>
+                                                                                                </a>
+                                                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                                                                                <p><span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <div class="uk-card">
+                                                                                        <div class="uk-card">
+                                                                                            <div class="uk-card-media-top uk-inline uk-cover-container uk-position-relative uk-inline-clip uk-transition-toggle">
+                                                                                                <a href="listings/index.html">
+                                                                                                <img class="uk-transition-scale-up uk-transition-opaque" src="../assets/images/h1-listing-img-11.jpg" width="1800" height="1200" alt="">
+                                                                                                <div class="uk-margin uk-position-top-left uk-position-small uk-text-primary"><a href="" uk-icon="heart"></a></div>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                            <div class="uk-card-body  uk-text-center">
+                                                                                                <a href="blank.html">
+                                                                                                    <h3 class="uk-card-title uk-margin-remove text-hover-gold">KRISTEN LEVIS</h3>
+                                                                                                    <h6 class="uk-margin-remove">Photo & Video</h6>
+                                                                                                </a>
+                                                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                                                                                <p><span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <div class="uk-card">
+                                                                                        <div class="uk-card">
+                                                                                            <div class="uk-card-media-top uk-inline uk-cover-container uk-position-relative uk-inline-clip uk-transition-toggle">
+                                                                                                <a href="listings/index.html">
+                                                                                                <img class="uk-transition-scale-up uk-transition-opaque" src="../assets/images/h1-listing-img-12.jpg" width="1800" height="1200" alt="">
+                                                                                                <div class="uk-margin uk-position-top-left uk-position-small uk-text-primary"><a href="" uk-icon="heart"></a></div>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                            <div class="uk-card-body  uk-text-center">
+                                                                                                <a href="blank.html">
+                                                                                                    <h3 class="uk-card-title uk-margin-remove text-hover-gold">KRISTEN LEVIS</h3>
+                                                                                                    <h6 class="uk-margin-remove">Photo & Video</h6>
+                                                                                                </a>
+                                                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                                                                                <p><span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <div class="uk-card">
+                                                                                        <div class="uk-card">
+                                                                                            <div class="uk-card-media-top uk-inline uk-cover-container uk-position-relative uk-inline-clip uk-transition-toggle">
+                                                                                                <a href="listings/index.html">
+                                                                                                <img class="uk-transition-scale-up uk-transition-opaque" src="../assets/images/h1-listing-img-13.jpg" width="1800" height="1200" alt="">
+                                                                                                <div class="uk-margin uk-position-top-left uk-position-small uk-text-primary"><a href="" uk-icon="heart"></a></div>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                            <div class="uk-card-body  uk-text-center">
+                                                                                                <a href="blank.html">
+                                                                                                    <h3 class="uk-card-title uk-margin-remove text-hover-gold">KRISTEN LEVIS</h3>
+                                                                                                    <h6 class="uk-margin-remove">Photo & Video</h6>
+                                                                                                </a>
+                                                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                                                                                <p><span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+
+                                                                            <!-- <div class="uk-flex-wrap-around uk-margin-auto" uk-grid>
+                                                                                <div class="uk-card-body uk-width-1-2 uk-padding-remove">
+                                                                                        <div class="uk-card">
+                                                                                            <div class="uk-card-media-top uk-inline uk-cover-container uk-position-relative uk-inline-clip uk-transition-toggle">
+                                                                                                <a href="listings/index.html">
+                                                                                                <img class="uk-transition-scale-up uk-transition-opaque" src="../assets/images/person/austin-distel-7uoMmzPd2JA-unsplash.jpg" width="1800" height="1200" alt="">
+                                                                                                <div class="uk-margin uk-position-top-left uk-position-small uk-text-primary"><a href="" uk-icon="heart"></a></div>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                            <div class="uk-card-body  uk-text-center">
+                                                                                                <a href="blank.html">
+                                                                                                    <h3 class="uk-card-title uk-margin-remove text-hover-gold">KRISTEN LEVIS</h3>
+                                                                                                    <h6 class="uk-margin-remove">Photo & Video</h6>
+                                                                                                </a>
+                                                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                                                                                <p><span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                </div>
+                                                                                <div class="uk-card-body uk-width-1-2 uk-padding-remove" >
+                                                                                        <div class="uk-card">
+                                                                                            <div class="uk-card-media-top uk-inline uk-cover-container uk-position-relative uk-inline-clip uk-transition-toggle">
+                                                                                                <a href="blank.html">
+                                                                                                <img class="uk-transition-scale-up uk-transition-opaque" src="../assets/images/person/thought-catalog-BlGmdY18CFQ-unsplash.jpg" width="1800" height="1200" alt="">
+                                                                                                <div class="uk-margin uk-position-top-left uk-position-small uk-text-primary"><a href="" uk-icon="heart"></a></div>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                            <div class="uk-card-body uk-text-center">
+                                                                                                <a href="blank.html">
+                                                                                                    <h3 class="uk-card-title uk-margin-remove text-hover-gold">KRISTEN LEVIS</h3>
+                                                                                                    <h6 class="uk-margin-remove">Photo & Video</h6>
+                                                                                                </a>
+                                                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                                                                                <p><span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                </div>
+                                                                                <div class="uk-width-1-2 uk-padding-remove">
+                                                                                        <div class="uk-card">
+                                                                                            <div class="uk-card-media-top uk-inline uk-cover-container uk-position-relative uk-inline-clip uk-transition-toggle">
+                                                                                                <a href="listings/index.html">
+                                                                                                <img class="uk-transition-scale-up uk-transition-opaque" src="../assets/images/person/austin-distel-7uoMmzPd2JA-unsplash.jpg" width="1800" height="1200" alt="">
+                                                                                                <div class="uk-margin uk-position-top-left uk-position-small uk-text-primary"><a href="" uk-icon="heart"></a></div>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                            <div class="uk-card-body  uk-text-center">
+                                                                                                <a href="blank.html">
+                                                                                                    <h3 class="uk-card-title uk-margin-remove text-hover-gold">KRISTEN LEVIS</h3>
+                                                                                                    <h6 class="uk-margin-remove">Photo & Video</h6>
+                                                                                                </a>
+                                                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                                                                                <p><span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                </div>
+                                                                                <div class="uk-width-1-2 uk-padding-remove" >
+                                                                                        <div class="uk-card">
+                                                                                            <div class="uk-card-media-top uk-inline uk-cover-container uk-position-relative uk-inline-clip uk-transition-toggle">
+                                                                                                <a href="blank.html">
+                                                                                                <img class="uk-transition-scale-up uk-transition-opaque" src="../assets/images/person/thought-catalog-BlGmdY18CFQ-unsplash.jpg" width="1800" height="1200" alt="">
+                                                                                                <div class="uk-margin uk-position-top-left uk-position-small uk-text-primary"><a href="" uk-icon="heart"></a></div>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                            <div class="uk-card-body uk-text-center">
+                                                                                                <a href="blank.html">
+                                                                                                    <h3 class="uk-card-title uk-margin-remove text-hover-gold">KRISTEN LEVIS</h3>
+                                                                                                    <h6 class="uk-margin-remove">Photo & Video</h6>
+                                                                                                </a>
+                                                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                                                                                <p><span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                </div>
+                                                                                <div class="uk-width-1-2 uk-padding-remove">
+                                                                                        <div class="uk-card">
+                                                                                            <div class="uk-card-media-top uk-inline uk-cover-container uk-position-relative uk-inline-clip uk-transition-toggle">
+                                                                                                <a href="listings/index.html">
+                                                                                                <img class="uk-transition-scale-up uk-transition-opaque" src="../assets/images/person/austin-distel-7uoMmzPd2JA-unsplash.jpg" width="1800" height="1200" alt="">
+                                                                                                <div class="uk-margin uk-position-top-left uk-position-small uk-text-primary"><a href="" uk-icon="heart"></a></div>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                            <div class="uk-card-body  uk-text-center">
+                                                                                                <a href="blank.html">
+                                                                                                    <h3 class="uk-card-title uk-margin-remove text-hover-gold">KRISTEN LEVIS</h3>
+                                                                                                    <h6 class="uk-margin-remove">Photo & Video</h6>
+                                                                                                </a>
+                                                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                                                                                <p><span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                </div>
+                                                                                <div class="uk-width-1-2 uk-padding-remove" >
+                                                                                        <div class="uk-card">
+                                                                                            <div class="uk-card-media-top uk-inline uk-cover-container uk-position-relative uk-inline-clip uk-transition-toggle">
+                                                                                                <a href="blank.html">
+                                                                                                <img class="uk-transition-scale-up uk-transition-opaque" src="../assets/images/person/thought-catalog-BlGmdY18CFQ-unsplash.jpg" width="1800" height="1200" alt="">
+                                                                                                <div class="uk-margin uk-position-top-left uk-position-small uk-text-primary"><a href="" uk-icon="heart"></a></div>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                            <div class="uk-card-body uk-text-center">
+                                                                                                <a href="blank.html">
+                                                                                                    <h3 class="uk-card-title uk-margin-remove text-hover-gold">KRISTEN LEVIS</h3>
+                                                                                                    <h6 class="uk-margin-remove">Photo & Video</h6>
+                                                                                                </a>
+                                                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                                                                                <p><span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                    <span uk-icon="star"> </span>
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                </div>
+                                                                            </div> -->
+                                                                        </div>
+
+                                                                        <div class="uk-width-1-4 uk-align-center ">
+                                                                            <button class="btn-animate uk-button uk-button-primary uk-form-width-medium uk-form-large uk-align-left uk-margin-remove-adjacent uk-width-1-1 uk-margin-large-bottom " name="search" type="submit">
+                                                                                <span class="uk-margin-small-left uk-position-relative uk-text-uppercase uk-icon">LOAD MORE</span> 
+                                                                            </button>
+                                                                        </div>
+                                                                    </article>
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                                <!-- akhir konten -->
+                            </div>
+                        </div>
+                    </section>
+
+                </main>
+            </div>
+            <!--Page Inner -->
+        
+
+            <footer class="footer">
+                <div class="f-top-area row">
+                    <div class="uk-container uk-container-xlarge uk-margin-large-left uk-margin-large-right ">
+                        <div class="uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-4@m uk-text-center uk-grid-divider " uk-grid>
+                            
+                            <div>
+                                <div class="footer-item uk-margin" >
+                                    <h3 class="uk-text-uppercase uk-text-primary">QUICK Q&A</h3>
+                                    <ul>
+                                        <li>How to find the right photographer?</li>
+                                        <li>What are the best catering deals?</li>
+                                        <li>Can I order my wedding dress online?</li>
+                                        <li>How do I make the ideal guest list?</li>
+                                        <li>How do I pick the perfect gown?</li>
+                                        <li>How do I pick a wedding destination?</li>
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+                            <div>
+                                <div class="footer-item uk-margin" >
+                                    <h3 class="uk-text-uppercase uk-text-primary">Latest Trends</h3>
+                                    <ul>
+                                        <li>How to find the right photographer?</li>
+                                        <li>What are the best catering deals?</li>
+                                        <li>Can I order my wedding dress online?</li>
+                                        <li>How do I make the ideal guest list?</li>
+                                        <li>How do I pick the perfect gown?</li>
+                                        <li>How do I pick a wedding destination?</li>
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+                            <div>
+                                <div class="footer-item uk-margin" >
+                                    <h3 class="uk-text-uppercase uk-text-primary">Instagram</h3>
+                                    <div class="uk-grid-small uk-child-width-1-2 uk-child-width-1-3@s uk-text-center " uk-grid >
+                                        <div class="uk-animation-toggle" tabindex="0">
+                                            
+                                            <img src="../assets/images/small-studio-negarin-2613458.jpg" width="200px" height="200px" class="ig_foto uk-animation-scale-up" alt="">
+                                            
+                                        </div>
+                                        <div class="uk-animation-toggle" tabindex="0">
+                                            
+                                            <img src="../assets/images/small-studio-negarin-2649165.jpg" width="200px" height="200px" class="ig_foto uk-animation-scale-up" alt="">
+                                            
+                                        </div>
+                                        <div class="uk-animation-toggle" tabindex="0">
+                                            
+                                            <img src="../assets/images/small-studio-negarin-2649169.jpg" width="200px" height="200px" class="ig_foto uk-animation-scale-up" alt="">
+                                            
+                                        </div>
+                                        <div class="uk-animation-toggle" tabindex="0">
+                                            
+                                            <img src="../assets/images/small-studio-negarin-2613458.jpg" width="200px" height="200px" class="ig_foto uk-animation-scale-up" alt="">
+                                            
+                                        </div>
+                                        <div class="uk-animation-toggle" tabindex="0">
+                                            
+                                            <img src="../assets/images/small-jin-wedding-5729029.jpg" width="200px" height="200px" class="ig_foto uk-animation-scale-up" alt="">
+                                            
+                                        </div>
+                                        <div class="uk-animation-toggle" tabindex="0">
+                                            
+                                            <img src="../assets/images/small-studio-negarin-2649169.jpg" width="200px" height="200px" class="ig_foto uk-animation-scale-up" alt="">
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+    
+                            <div class="uk-flex-first ">
+                                <div class="footer-item">
+                                <a itemprop="url" class="uk-margin" href="https://luxima.id" rel="home">
+                                    <img src="../assets/images/luxima.png"  alt="logo main" 
+                                    itemprop="image" srcset="../assets/images/luxima.png"> 
+                                </a>
+                                </div>
+                                <div class="footer-item uk-margin" >
+                                    <p class="uk-margin-remove"><a href="https://maps.app.goo.gl/BtUNDevRNqkshN6x6" target="_blank"><span class="uk-margin-small-right" uk-icon="location"></span>Jl. DR. Mohd Hasan No. 257</a></p>
+                                    <p class="uk-margin-remove"><a href="tel:+628116111662" target="_blank"><span class="uk-margin-small-right" uk-icon="phone"></span>08116111662</a></p>
+                                    <p class="uk-margin-remove"><a href="mailto:hello@luxima.id" target="_blank"><span class="uk-margin-small-right" uk-icon="mail"></span>hello@luxima.id</a></p>
+                                    <p class="uk-margin-remove"><a href="https://wa.me/628990001664" target="_blank"><span class="uk-margin-small-right" uk-icon="whatsapp"></span>08990001664</a></p>
+                                    <div class="social-icons-group uk-margin">
+                                        <a href="https://www.facebook.com/luxima.photo" class="uk-icon-link  uk-margin-small-right" uk-icon="facebook" style="color:#a78656" target="_blank"></a>
+                                        <a href="https://www.instagram.com/luxima.id" class="uk-icon-link  uk-margin-small-right" uk-icon="instagram" style="color:#a78656" target="_blank"></a>
+                                        <a href="https://www.twitter.com/luximaid" class="uk-icon-link  uk-margin-small-right" uk-icon="twitter" style="color:#a78656" target="_blank"></a>
+                                        <a href="https://www.tiktok.com/@luxima.id" class="uk-icon-link  uk-margin-small-right" uk-icon="tiktok" style="color:#a78656" target="_blank"></a>
+                                        <a href="https://www.youtube.com/@luxima-id" class="uk-icon-link  uk-margin-small-right" uk-icon="youtube" style="color:#a78656" target="_blank"></a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+        
+                </div>
+                <div class="f-bottom-area uk-text-center">
+                        © 2024 <a href="https://luxima.id">LUXIMA.ID</a>, All Rights Reserved
+                </div>
+            </footer>
+        </div>
+        <!-- Page Outer -->
+
+    </div>
+<!-- Wrapper -->
+
+    <!-- MODAL -->
+    <div id="modal-login" class="uk-modal-full uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-margin-auto-vertical">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover uk-visible@s" style="background-image: url('assets/images/wedding/alexandra-gornago-o2zFDffQnDM-unsplash.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>Log in</h1>
+                    <p>Welcome to LUXIMA Directory & Listing App </p>
+                    <form id="form_login" class="uk-form-stacked uk-width-1-2@s" action="auth/login" method="post">
+                        <fieldset class="uk-fieldset">
+
+                            <legend class="uk-legend">Sign In</legend>
+    
+                            <div class="uk-margin">
+                                <label class="uk-form-label" for="form-s-email">Email</label>
+                                <input class="uk-input" id="form-s-email" type="email" placeholder="name@domain.com">
+                            </div>
+                            <div class="uk-margin">
+                                <label class="uk-form-label" for="form-s-password">Password</label>
+                                <input class="uk-input" id="form-s-password" type="password" placeholder="Password">
+                            </div>
+                            <div class="uk-margin">
+                                <button type="submit" class="uk-button uk-button-primary">Log in</button>
+                                <button type="reset" class="uk-button uk-button-default">Cancel</button>
+                            </div>
+                        </fieldset>
+                            
+    
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal-search" class="uk-modal-full uk-modal menu-full" uk-modal tabindex="-1">
+        <div class="uk-modal-dialog uk-flex uk-flex-center uk-flex-middle" uk-height-viewport="" role="dialog" aria-modal="true" style="min-height: calc(927px);">
+
+            <button class="uk-modal-close-full uk-close-large uk-icon uk-close" type="button" uk-close="" aria-label="Close"><svg width="20" height="20" viewBox="0 0 20 20"><line fill="none" stroke="#000" stroke-width="1.4" x1="1" y1="1" x2="19" y2="19"></line><line fill="none" stroke="#000" stroke-width="1.4" x1="19" y1="1" x2="1" y2="19"></line></svg></button>
+
+            <div>
+
+                <ul class="uk-nav-primary uk-nav-center uk-nav" uk-nav="">
+                    <li class="uk-active"><a href="index.html">HOME</a></li>
+                    <li class="uk-parent"><a href="#">PAGES</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="package.html">Package List</a></li>
+                            <li><a href="howto.html">How it Work</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-parent"><a href="#">SHOP</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="shop.html">Shop</a></li>
+                            <li><a href="layout.html">Layout</a></li>
+                            <li><a href="shop-detail.html">Shop Single</a></li>
+                            <li><a href="shop-page.html">Shop Page</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-parent"><a href="#">BLOG</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="blog-detail.html">Blog Detail</a></li>
+                            <li><a href="blog-left.html">Right Sidebar</a></li>
+                            <li><a href="blog-right.html">Left Sidebar</a></li>
+                            <li><a href="blog.html">No Sidebar</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+                <div class="uk-margin-large">
+                    <form class="uk-search uk-search-large">
+                        <input class="uk-search-input uk-text-center" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    
+    <a id="backtotop" class="backtotop" href="#">
+        <span class="backtotop-icon">
+        </span>
+        </a>
+    
+        
+
+     <!-- prettier-ignore -->
+     <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+        ({key: "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg", v: "weekly"});</script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="../js/script.js"></script>
+
+    
+</body>
+</html>
