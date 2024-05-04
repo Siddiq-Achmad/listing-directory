@@ -1161,7 +1161,13 @@ box-sizing: border-box;
 .container-height-max{
   height: 100vh;
 }
-
+.uk-height-custom{
+  height: 65vh;
+}
+.margin-min{
+  margin-left: -100px;
+  margin-top: -50px;
+}
 #map {
   height: 400px; /* The height is 400 pixels */
   width: 100%; /* The width is the width of the web page */

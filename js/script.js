@@ -3,7 +3,7 @@ var loadingStatus = document.getElementById('loadingA');
 var loading = setInterval(function () {
     bar.value += 10;
     // console.log(bar.value);
-    loadingStatus.innerHTML = bar.value + '%' ;
+    //loadingStatus.innerHTML = bar.value + '%' ;
     if (bar.value >= bar.max) {
         clearInterval(loading);
     }
@@ -39,43 +39,43 @@ $(function(){
   });
 });
 
-UIkit.util.ready(function () {
+// UIkit.util.ready(function () {
 
-var bar1 = document.getElementById('js-rating1');
-var bar2 = document.getElementById('js-rating2');
-var bar3 = document.getElementById('js-rating3');
-var bar4 = document.getElementById('js-rating4');
+// var bar1 = document.getElementById('js-rating1');
+// var bar2 = document.getElementById('js-rating2');
+// var bar3 = document.getElementById('js-rating3');
+// var bar4 = document.getElementById('js-rating4');
 
-var persen1 = document.getElementById('persen1');
-var persen2 = document.getElementById('persen2');
-var persen3 = document.getElementById('persen3');
-var persen4 = document.getElementById('persen4');
+// var persen1 = document.getElementById('persen1');
+// var persen2 = document.getElementById('persen2');
+// var persen3 = document.getElementById('persen3');
+// var persen4 = document.getElementById('persen4');
 
-const bars = [bar1,bar2,bar3,bar4];
+// const bars = [bar1,bar2,bar3,bar4];
 
-const persens = [persen1,persen2,persen3,persen4];
+// const persens = [persen1,persen2,persen3,persen4];
 
-  var animated = setInterval(function () {
+//   var animated = setInterval(function () {
 
-      for(let i=0;bars.length;i++){
+//       for(let i=0;bars.length;i++){
 
-        let a = 2**(i+1);
-        a +=10;
-        console.log('i '+i);
-        console.log('a '+a);
-        bars[i].value += a;
+//         let a = 2**(i+1);
+//         a +=10;
+//         console.log('i '+i);
+//         console.log('a '+a);
+//         bars[i].value += a;
 
-        persens[i].innerHTML = bars[i].value + '%' ;
+//         persens[i].innerHTML = bars[i].value + '%' ;
 
 
-      if (bars[0].value >= bars[0].max) {
-        clearInterval(animated);
-        }
-      }
+//       if (bars[0].value >= bars[0].max) {
+//         clearInterval(animated);
+//         }
+//       }
       
       
-  },500);
+//   },500);
 
 
 
-});
+// });
