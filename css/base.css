@@ -843,6 +843,53 @@ nav{
   font-style: italic;
   font-weight: 200;
 }
+.cat-title-a{
+  text-decoration: none;
+  color: #a78656;
+  font-family: 'Space Grotesk';
+  font-style: italic;
+  font-weight: 200;
+}
+.z-index-up{
+  z-index: 100;
+}
+.card-shop >div>span>a{
+  transition:0.5s ;
+  text-decoration: none;
+  color: #a78656;
+  font-family: 'Space Grotesk';
+  font-style: italic;
+  font-weight: 200;
+  opacity: 0;
+}
+.card-shop:hover>div>span>a {
+  transition-delay:0.2s;
+  opacity: 1;
+}
+
+.card-shop >div>.cat-title-shop{
+  transition:0.5s;
+  bottom: 15px;
+  width: calc(100% - 30px);
+  height: 0;
+  background-color: #ffffff;
+  overflow: hidden;
+  content: "";
+}
+.card-shop:hover>div>.cat-title-shop {
+  height:  calc(100% - 30px);
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+
+.cat-title-shop p{
+  text-decoration: none;
+  color: #a78656;
+  font-family: 'Space Grotesk';
+  font-style: italic;
+  font-weight: 200;
+}
 
 .sec-bg{
   /* background: url("images/noise-pattern.jpg") ;  */
